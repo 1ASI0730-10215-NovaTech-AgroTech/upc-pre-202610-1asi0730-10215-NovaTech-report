@@ -6,11 +6,11 @@
 
 ![cap2](assets/User-person.1.png)
 
-* **Segmento 2: **
+* **Segmento 2: Asesor**
 
 ![cap2](assets/User-person.2.png)
 
-* **Segmento 3: **
+* **Segmento 3: Usuario Final**
 
 ![cap2](assets/User-person.3.png)
 
@@ -28,6 +28,16 @@ Finalmente, los clientes finales tienen una menor frecuencia de uso, pero otorga
 
 ### 2.3.3. User Journey Mapping
 
+* **Segmento 1: Agricultor**
 
+![cap2](assets/Journey-map.1.png)
+
+* **Segmento 2: Asesor**
+
+![cap2](assets/Journey-map.2.png)
+
+* **Segmento 3: Usuario Final**
+
+![cap2](assets/Journey-map.3.png)
 
 ### 2.3.4. Empathy Mapping
