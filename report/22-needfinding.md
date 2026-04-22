@@ -41,3 +41,15 @@ Finalmente, los clientes finales tienen una menor frecuencia de uso, pero otorga
 ![cap2](assets/Journey-map.3.png)
 
 ### 2.3.4. Empathy Mapping
+
+* **Segmento 1: Agricultor**
+
+![cap2](assets/Empathy.map.1.png)
+
+* **Segmento 2: Asesor**
+
+![cap2](assets/Empathy.map.2.png)
+
+* **Segmento 3: Usuario Final**
+
+![cap2](assets/Empathy.map.3.png)
