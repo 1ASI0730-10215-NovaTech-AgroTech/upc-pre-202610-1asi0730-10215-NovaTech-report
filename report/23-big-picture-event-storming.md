@@ -1,3 +1,3 @@
 ### 2.4. Big Picture Event Storming
 
-![cap2](assets/Big-picture-event-storming.png)
+<img src="./report/assets/big-picture-event-storming.png" style="width: 1200px; height: 700px;">

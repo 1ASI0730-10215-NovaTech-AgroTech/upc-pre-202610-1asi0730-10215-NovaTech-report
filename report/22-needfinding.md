@@ -4,21 +4,21 @@
 
 * **Segmento 1: Agricultor**
 
-![cap2](assets/User-person.1.png)
+<img src="./report/assets/user-person-1.png" style="width: 60%; max-width: 1200px; height: 700px;">
 
 * **Segmento 2: Asesor**
 
-![cap2](assets/User-person.2.png)
+<img src="./report/assets/user-person-2.png" style="width: 60%; max-width: 1200px; height: 700px;">
 
 * **Segmento 3: Usuario Final**
 
-![cap2](assets/User-person.3.png)
+<img src="./report/assets/user-person-3.png" style="width: 60%; max-width: 1200px; height: 700px;">
 
 ### 2.3.2. User Task Matrix
 
 En este cuadro tendremos a nuestros segmentos objetivos: Agricultor, Asesos y Usuario Final. Consideraremos tareas que haran para obtener un producto o hallar ofertas para planificar futuras compras.
 
-![cap2](assets/Task-matrix.png)
+<img src="./report/assets/task-matrix.png" style="width: 90%; max-width: 1200px; height: 700px;">
 
 Los agricultores presentan una alta frecuencia e importancia en tareas operativas como el monitoreo del suelo y la recepción de alertas en tiempo real, ya que dependen directamente de esta información para tomar decisiones inmediatas en sus cultivos.
 
@@ -30,26 +30,26 @@ Finalmente, los clientes finales tienen una menor frecuencia de uso, pero otorga
 
 * **Segmento 1: Agricultor**
 
-![cap2](assets/Journey-map.1.png)
+<img src="./report/assets/journey-map-1.png" style="width: 90%; max-width: 1200px; height: 700px;">
 
 * **Segmento 2: Asesor**
 
-![cap2](assets/Journey-map.2.png)
+<img src="./report/assets/journey-map-2.png" style="width: 90%; max-width: 1200px; height: 700px;">
 
 * **Segmento 3: Usuario Final**
 
-![cap2](assets/Journey-map.3.png)
+<img src="./report/assets/journey-map-3.png" style="width: 90%; max-width: 1200px; height: 700px;">
 
 ### 2.3.4. Empathy Mapping
 
 * **Segmento 1: Agricultor**
 
-![cap2](assets/Empathy.map.1.png)
+<img src="./report/assets/empathy-map-1.png" style="width: 90%; max-width: 1200px; height: 700px;">
 
 * **Segmento 2: Asesor**
 
-![cap2](assets/Empathy.map.2.png)
+<img src="./report/assets/empathy-map-2.png" style="width: 90%; max-width: 1200px; height: 700px;">
 
 * **Segmento 3: Usuario Final**
 
-![cap2](assets/Empathy.map.3.png)
+<img src="./report/assets/empathy-map-3.png" style="width: 90%; max-width: 1200px; height: 700px;">
