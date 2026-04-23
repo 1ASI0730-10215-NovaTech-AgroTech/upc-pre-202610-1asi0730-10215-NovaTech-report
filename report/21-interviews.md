@@ -106,4 +106,103 @@
 
 ### 2.2.2. Registro de entrevistas
 
+* **Segmento 1: Agricultor**
+
+    * **Entrevista 1:**
+        * **Nombres:** Marcelino 
+        * **Apellidos:** Encarnación Timoteo
+        * **Edad:** 
+        * **Distrito:** 
+        * **Screenshot:**
+          <img src="assets/Entrevista-1.1.png" alt="cap2" width="200">
+        * **Video URL:** 
+        * **Timing:** 
+        * **Resumen:**
+        Un agricultor de Huánuco actualmente enfocado en la cosecha de zanahoria, quien representa a un segmento de usuarios fuertemente arraigado a métodos tradicionales y con altas barreras tecnológicas. Marcelino carece de alfabetización digital, utiliza únicamente dispositivos móviles básicos sin acceso a internet, enfrenta problemas de conectividad en su zona y manifiesta desconfianza inicial ante la instalación de sensores físicos por temor a robos, daños al suelo o inversiones sin retorno claro. Sin embargo, existe una alta receptividad hacia el monitoreo agrícola automatizado debido a que resuelve sus "dolores" más críticos: la incertidumbre frente al cambio climático, la fatiga física de recorrer extensos terrenos a su edad y la preocupación por las heladas nocturnas.
+
+    * **Entrevista 2:**
+        * **Nombres:** Joe
+        * **Apellidos:** Cañamero
+        * **Edad:**
+        * **Distrito:**
+        * **Screenshot:**
+          <img src="assets/Entrevista-1.2.png" alt="cap2" width="200">
+        * **Video URL:**
+        * **Timing:**
+        * **Resumen:**
+          El agricultor entrevistado dejó clara su prioridad: una aplicación web con interfaz extremadamente sencilla, pero lo que más valoró fue la necesidad de un tutorial o asesoramiento integrado que lo acompañe en cada paso. No se trata solo de una guía inicial, sino de un acompañamiento constante dentro de la plataforma, ya que su analfabetización digital le impide sentirse seguro operando solo. Sin ese componente formativo, cualquier funcionalidad avanzada le resulta inaccesible o intimidante. 
+          Esta necesidad se agrava por el entorno donde opera: su zona rural sufre cortes de electricidad y conectividad a internet intermitente o nula. Esto significa que el asesoramiento no puede depender de videos en streaming, chats en vivo o actualizaciones constantes en la nube. La solución debe estar diseñada para funcionar incluso en condiciones de conectividad precaria, ofreciendo un tutorial offline o progresivo que no se rompa ante la falta de señal. 
+          Dado que la aplicación es principalmente software, pero debe convivir con dispositivos de campo, se determina que el IoT de monitoreo opere con LoRaWAN para sortear los problemas de red. Sin embargo, el verdadero diferencial estará en el módulo de asesoramiento inteligente: flujos guiados, tooltips persistentes, recordatorios contextuales y un modo "paso a paso" que el agricultor pueda activar cuando lo necesite. Así, TerraTech no solo organiza cosechas, sino que educa mientras el usuario trabaja, adaptándose a sus limitaciones digitales y de infraestructura.
+
+
+* **Segmento 2: Proveedores**
+
+    * **Entrevista 1:**
+        * **Nombres:** Anita 
+        * **Apellidos:** Monago Cachay
+        * **Edad:**
+        * **Distrito:**
+        * **Screenshot:**
+          <img src="assets/Entrevista-2.1.png" alt="cap2" width="200">
+        * **Video URL:**
+        * **Timing:**
+        * **Resumen:**
+          Anita Monago Cachay es una proveedora de productos agrícolas de 35 años dedicada a ofrecer frutas y verduras a clientes mayoristas. Su estrategia comercial se basa en la total franqueza frente a sus compradores, informándoles siempre sobre la calidad real de su mercadería. Esta transparencia genera un alto nivel de confianza y fomenta que sus propios clientes la recomienden de boca en boca con otras personas.
+          Para mantener su prestigio en el mercado, a Anita le resultaría de gran utilidad contar con información anticipada y precisa sobre el comportamiento del clima. Ella considera que la adopción de la plataforma le aportaría mucho valor si el sistema le brinda datos y alertas que le permitan anticiparse a los cambios climáticos. De esta manera, la herramienta le ayudaría a garantizar que sus productos mantengan la excelente calidad que sus exigentes clientes mayoristas esperan.
+
+    * **Entrevista 2:**
+        * **Nombres:** Albert
+        * **Apellidos:** 
+        * **Edad:**
+        * **Distrito:**
+        * **Screenshot:**
+          <img src="assets/Entrevista-2.2.png" alt="cap2" width="200">
+        * **Video URL:**
+        * **Timing:**
+        * **Resumen:**
+          Albert es un joven asesor técnico y distribuidor de insumos agrícolas que está asumiendo el negocio familiar en la zona de Cañete. Actualmente realiza sus recomendaciones basándose en visitas presenciales y experiencia, sin contar con datos reales del suelo en tiempo real. Sus principales problemas son la falta de información precisa sobre humedad y nutrientes, lo que genera recomendaciones erróneas, pérdida de confianza de los agricultores y reclamos frecuentes. Valora enormemente el acceso a datos actualizados del cultivo, alertas automáticas y recomendaciones precisas según el estado del suelo. Considera que una herramienta como TerraTech le permitiría ofrecer asesorías más eficientes, reducir errores, fidelizar clientes y aumentar sus ventas al justificar mejor cada producto con información real y actualizada.
+
+
+* **Segmento 3: Clientes Finales**
+
+    * **Entrevista 1:**
+        * **Nombres:** Anjali 
+        * **Apellidos:** Amaro
+        * **Edad:**
+        * **Distrito:**
+        * **Screenshot:**
+          <img src="assets/Entrevista-3.1.png" alt="cap2" width="200">
+        * **Video URL:**
+        * **Timing:**
+        * **Resumen:**
+          El consumidor entrevistado otorga una importancia central a la calidad y trazabilidad de los alimentos que consume. No solo le preocupa saber si un producto contiene pesticidas o no, sino que necesita acceder a información clara sobre niveles de calidad, certificaciones y buenas prácticas agrícolas. Para él, la transparencia en estos aspectos es un factor decisivo de compra y confianza. 
+          Actualmente, este consumidor carece de canales confiables y accesibles para verificar esa información. Las etiquetas de los productos son limitadas, los sellos ecológicos a menudo resultan confusos o poco verificables, y no existe un espacio comunitario donde los compradores puedan compartir experiencias o calificar a los agricultores según sus prácticas. Esta falta de difusión y validación colectiva genera desconfianza y lo obliga a tomar decisiones con información incompleta. 
+          Para resolver este problema, TerraTech debe incorporar un módulo de difusión comunitaria que permita a los consumidores calificar a los agricultores, visualizar sus niveles de calidad y conocer el uso o ausencia de pesticidas en cada cosecha. Esto implica que la plataforma no solo sirva al agricultor para organizar su producción, sino que también ofrezca una vista pública o semipública donde el consumidor final pueda consultar, comparar y validar el origen de sus alimentos, construyendo así un ecosistema de confianza basado en la transparencia y la reputación colectiva.
+
+    * **Entrevista 2:**
+        * **Nombres:** Luciana 
+        * **Apellidos:** Aguilar
+        * **Edad:** 17
+        * **Distrito:** La Molina
+        * **Screenshot:**
+          <img src="assets/Entrevista-3.2.png" alt="cap2" width="200">
+        * **Video URL:**
+        * **Timing:**
+        * **Resumen:**
+          Luciana Aguilar, de 17 años, vive en La Molina. En la entrevista, comentó que suele comprar frutas, verduras y granos como arroz y avena en una bodega cercana a su casa. Su rutina de compra es semanal, aunque también va cuando le falta algún ingrediente específico para una receta. Mencionó que al elegir un producto se fija en el precio, la frescura y la apariencia, y que rechaza aquellos con empaques golpeados o que se ven viejos. Señaló que el origen nacional o local le importa parcialmente, porque asocia lo local con mayor frescura y por apoyar la agricultura peruana, aunque admitió que no siempre lo revisa. Sobre sostenibilidad, indicó que solo elige opciones sostenibles si cuestan lo mismo que las convencionales; si son más caras, duda. Comentó que le genera confianza un producto limpio, bien cuidado y con certificación o información de origen. Le gustaría saber si se usaron químicos, cómo se cuidó el cultivo y en qué condiciones fue producido, pero notó que esa información es escasa y solo a veces ve etiquetas como "orgánico" o "sin pesticidas". Afirmó que si conociera el proceso de cultivo, estaría dispuesta a pagar un poco más. Sobre tecnología, dijo que usa su teléfono para buscar recetas o beneficios de alimentos, y que en el supermercado, cuando la información del empaque es incompleta, busca en Google para decidir. Propuso acceder a la información del cultivo mediante un código QR en el paquete o puesto de venta. Finalmente, mencionó que compartiría productos saludables o diferentes con familiares y amigos, y que sus tres factores principales de compra, en orden, son precio, apariencia y frescura.
+
+    * **Entrevista 3:**
+        * **Nombres:** Karim 
+        * **Apellidos:** Castillo
+        * **Edad:**
+        * **Distrito:**
+        * **Screenshot:**
+          <img src="assets/Entrevista-3.3.png" alt="cap2" width="200">
+        * **Video URL:**
+        * **Timing:**
+        * **Resumen:**
+          Karim Castillo es un joven comprador mayorista y dueño de una verdulería en el Mercado Modelo de Lima. Compra productos agrícolas diariamente tanto para su negocio como para consumo personal. Sus principales problemas son la dificultad para verificar el origen, el trato del suelo y el impacto ambiental de los productos que adquiere. Valora fuertemente la transparencia y la sostenibilidad en la producción. Considera muy importante poder acceder fácilmente a información real del proceso de cultivo mediante un código QR o dashboard sencillo. Cree que conocer el estado del suelo, el uso eficiente del agua y los nutrientes aplicados le generaría mayor confianza, le permitiría pagar un mejor precio por productos de calidad y recomendarlos con seguridad a sus propios clientes.
+
 ### 2.2.3. Análisis de entrevistas
+
+
