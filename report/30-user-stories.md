@@ -1,5 +1,7 @@
 # Chapter III: Requirements Specification
 
+<div style="page-break-before: always;"></div>
+
 ## 3.1. User Stories
 
 <!-- ==================== EPIC01 ==================== -->
@@ -94,6 +96,8 @@
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <!-- ==================== EPIC02 ==================== -->
 <h3>EPIC02: Autenticación y Gestión de Usuarios</h3>
 <table border="1" cellpadding="6" cellspacing="0">
@@ -182,6 +186,8 @@
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <!-- ==================== EPIC03 ==================== -->
 <h3>EPIC03: Dashboard de Monitoreo en Tiempo Real</h3>
 <table border="1" cellpadding="6" cellspacing="0">
@@ -252,6 +258,8 @@
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <!-- ==================== EPIC04 ==================== -->
 <h3>EPIC04: Mapa de Fertilidad</h3>
 <table border="1" cellpadding="6" cellspacing="0">
@@ -303,6 +311,8 @@
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-before: always;"></div>
 
 <!-- ==================== EPIC05 ==================== -->
 <h3>EPIC05: Motor de Recomendaciones</h3>
@@ -356,6 +366,8 @@
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <!-- ==================== EPIC06 ==================== -->
 <h3>EPIC06: Gestión de Sensores</h3>
 <table border="1" cellpadding="6" cellspacing="0">
@@ -408,6 +420,8 @@
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <!-- ==================== EPIC07 ==================== -->
 <h3>EPIC07: Reportes y Analytics</h3>
 <table border="1" cellpadding="6" cellspacing="0">
@@ -459,6 +473,8 @@
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-before: always;"></div>
 
 <!-- ==================== EPIC08 ==================== -->
 <h3>EPIC08: API RESTful</h3>
@@ -530,6 +546,8 @@
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 <!-- ==================== EPIC09 ==================== -->
 <h3>EPIC09: Integración con Servicios Externos</h3>
 <table border="1" cellpadding="6" cellspacing="0">
@@ -581,6 +599,8 @@
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-before: always;"></div>
 
 <!-- ==================== EPIC10 ==================== -->
 <h3>EPIC10: Configuración y Despliegue (Technical Stories)</h3>
