@@ -209,6 +209,74 @@ A través de una reunión en la plataforma Meet, se planteó el inicio del Sprin
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Commit Message</th>
+      <th>Committed On (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calin1407/TerraTech-Landing</td>
+      <td>main</td>
+      <td>a1b2c3d</td>
+      <td>feat: TS02 setup deployment and documentation</td>
+      <td>12/04/2026</td>
+    </tr>
+    <tr>
+      <td>GuillermoPromac/TerraTech-Landing</td>
+      <td>main</td>
+      <td>e5f6g7h</td>
+      <td>feat: US01 added Hero Section and CTA button</td>
+      <td>11/04/2026</td>
+    </tr>
+    <tr>
+      <td>L2006delacruz/TerraTech-Landing</td>
+      <td>main</td>
+      <td>i9j0k1l</td>
+      <td>feat: US03 implemented Demo Request Form</td>
+      <td>11/04/2026</td>
+    </tr>
+    <tr>
+      <td>Breithner1/TerraTech-Landing</td>
+      <td>main</td>
+      <td>m2n3o4p</td>
+      <td>feat: US02 added IoT sensors feature section</td>
+      <td>12/04/2026</td>
+    </tr>
+    <tr>
+      <td>Rodri2712/TerraTech-Landing</td>
+      <td>main</td>
+      <td>q5r6s7t</td>
+      <td>fix: US01/US02 responsive design mobile issues</td>
+      <td>13/04/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<p>En el proceso de desarrollo de la landing page de <b>TerraTech</b>, se aplicaron diversas estrategias de prueba para garantizar su correcto funcionamiento y adaptabilidad en entornos rurales y urbanos. A continuación se detallan las herramientas utilizadas:</p>
+
+<h5>1. Uso de Live Server de Microsoft Visual Studio Code</h5>
+<ul>
+    <li><b>Propósito:</b> Facilitar el desarrollo ágil y la visualización instantánea de los cambios en la interfaz de TerraTech.</li>
+    <li><b>Descripción:</b> Esta herramienta permitió que el equipo visualizara dinámicamente los ajustes en tiempo real, agilizando la corrección de errores en la maquetación del Hero Section y las secciones de sensores sin recargar manualmente el navegador.</li>
+</ul>
+
+
+<h5>2. Validación de Formularios y Responsive con CSS Grid/Flexbox</h5>
+<ul>
+    <li><b>Propósito:</b> Asegurar que la captura de datos (US03) sea robusta y el diseño sea adaptable.</li>
+    <li><b>Descripción:</b> Se aprovecharon las capacidades de inspección de elementos para optimizar el diseño basado en CSS Grid. Se realizaron pruebas de validación en el formulario de solicitud de demo para confirmar que los mensajes de error aparezcan correctamente ante datos inválidos.</li>
+</ul>
+
+<p>Estas estrategias de prueba garantizaron la funcionalidad, la estética y la adaptabilidad de la landing page de TerraTech en diversos dispositivos, contribuyendo a una experiencia de usuario sólida y profesional.</p>
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
