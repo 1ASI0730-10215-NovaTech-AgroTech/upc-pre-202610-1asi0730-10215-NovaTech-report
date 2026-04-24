@@ -5,6 +5,9 @@
 ```plantuml
 @startuml
 !theme plain
+scale 2/3
+
+!theme plain
 
 ' ==================== DARK THEME CONFIGURATION ====================
 skinparam backgroundColor #1A1B26
@@ -183,7 +186,7 @@ Alert ||--o{ Notification : generates
 
 ### 4.7.2. Class Dictionary
 
-<table>
+<table border="1">
 <thead>
 <tr>
 <th>Class</th>
