@@ -133,7 +133,7 @@ investigación sobre del segmento de estudio, generación de historias de usuari
 
 #### 5.2.1.3 Sprint 1 Backlog
 
-<table>
+<table border="1">
   <tr>
     <td><strong>Sprint #</strong></td>
     <td colspan="7"><strong>Sprint 1</strong></td>
@@ -207,7 +207,7 @@ investigación sobre del segmento de estudio, generación de historias de usuari
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>Repository</th>

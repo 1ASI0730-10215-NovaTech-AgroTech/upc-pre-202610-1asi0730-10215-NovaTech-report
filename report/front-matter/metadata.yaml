@@ -68,5 +68,33 @@ include-before: |
 
   <p>Entrega Nº1: AV1</p>
   
+  <h3>Registro de commits en repositorio de informe</h3>
+  
+  En este apartado se observan el trabajo que cada miembro realizó para la realización de los capítulos 1, 2, 3, 4 y 5 del informe.
+  
+  - Cada miembro tomo responsabilidad en el seguimiento de los 'conventional commits' y el uso correcto de ramas, según se explico en el documento del AulaVirtual.
+  
+  - Para la realización del trabajo, se realizaron reuniones grupales. Asimismo, se necesito de un reinicio del repositorio por el uso incorrecto de ramas. Por ello, GitHub documenta que se realizó el trabajo desde el 13 de abril, cuando realmente se comenzó mucho antes. 
+  
+  <img src="./report/assets/evidence-commits-sprint-01.png" style="width: 800px;"/>
+  
+  <img src="./report/assets/retuerto-commits-sprint-01.png" style="width: 800px;"/>
+  
+  <img src="./report/assets/guillermo-commits-sprint-01.png" style="width: 800px;"/>
+  
+  <img src="./report/assets/luis-commits-sprint-01.png" style="width: 800px;"/>
+  
+  <img src="./report/assets/rodrigo-commits-sprint-01.png" style="width: 800px;"/>
+  
+  <img src="./report/assets/breithner-commits-sprint-01.png" style="width: 800px;"/>
+  
+  <div style="page-break-before: always;"></div>
+  
+  <h3>Registro de commits en repositorio de Landing page</h3>
+  
+  En este apartado, se visualizan los gráficos generados por la participación de los miembros del grupo.
+  
+  <img src='./report/assets/evidence-landingpage-sprint-01.PNG' style="width: 800px;"/>
+  
   <h1 style="page-break-before: always;">Tabla de contenido</h1>
 ---
