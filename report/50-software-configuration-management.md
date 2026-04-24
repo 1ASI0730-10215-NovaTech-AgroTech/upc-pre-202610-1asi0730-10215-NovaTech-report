@@ -3,38 +3,43 @@
 ## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
+
 Para garantizar un flujo de trabajo eficiente y estandarizado en el desarrollo de las soluciones de TerraTech, el equipo ha configurado un entorno de desarrollo integrado que abarca desde el diseño de la experiencia de usuario hasta el despliegue de la plataforma. Las herramientas seleccionadas son:
 
-Diseño de Interfaz (UI/UX):
+- Diseño de Interfaz (UI/UX):
 
-Figma: Utilizado como la herramienta principal para el prototipado de alta fidelidad de la aplicación web, permitiendo la colaboración en tiempo real y la definición de los flujos de usuario (User Flows) antes de la implementación.
+  - Figma: Utilizado como la herramienta principal para el prototipado de alta fidelidad de la aplicación web, permitiendo la colaboración en tiempo real y la definición de los flujos de usuario (User Flows) antes de la implementación.
+  - Miro: Utilizado para el diseño del Event Storming del proyecto.
+  - UXPRESSIA: Utilizado para el desarrollo de needfinding, comprensión de nuestro User Persona.
+  - Canva: Plataforma de diseño colaborativo de funcion múltiple.
 
-Editor de Código:
+- Editor de Código:
 
-Visual Studio Code (VS Code): Configurado como el entorno de desarrollo (IDE) estándar para la codificación de la Landing Page y la estructura web, debido a su versatilidad y soporte de extensiones.
+  - Visual Studio Code (VS Code): Configurado como el entorno de desarrollo (IDE) estándar para la codificación de la Landing Page y la estructura web, debido a su versatilidad y soporte de extensiones.
+  - WebStorm: IDE para desarrollo web, soporta HTML, CSS, JavaScript y frameworks modernos, perteneciente a JetBrains.
+  - Rider: IDE para desarrollo de aplicaciones .NET y C#, perteneciente a JetBrains.
+    
+- Gestión de Versiones y Repositorio:
 
-Gestión de Versiones y Repositorio:
+  - Git: Empleado para el control de versiones local, facilitando el seguimiento de cambios y el trabajo colaborativo.
+  - GitHub: Plataforma en la nube utilizada para alojar el repositorio remoto, gestionar el código fuente y asegurar el respaldo del proyecto.
 
-Git: Empleado para el control de versiones local, facilitando el seguimiento de cambios y el trabajo colaborativo.
+- Tecnologías de Frontend y Estilizado:
 
-GitHub: Plataforma en la nube utilizada para alojar el repositorio remoto, gestionar el código fuente y asegurar el respaldo del proyecto.
+  - Vue: frameworks de JavaScript para crear interfaces de usuario y aplicaciones web modernas.
+  - PrimeVue: un complemento de bibliotecas de componentes de interfaz de usuario diseñada para Vue.
 
-Tecnologías de Frontend y Estilizado:
+- Gestión de Dependencias y Despliegue:
 
-Astro: Framework utilizado para la construcción de la Landing Page, seleccionado por su alta velocidad de carga y optimización de contenido estático (SEO-friendly).
+  - npm (Node Package Manager): Gestor de paquetes encargado de administrar las librerías y dependencias necesarias para el funcionamiento de los componentes web.
+  - GitHub Pages: Elegido como el servicio de hosting para el despliegue continuo de la Landing Page, permitiendo una visualización rápida y accesible para los stakeholders.
 
-CSS / Tailwind CSS: Para el diseño visual y la creación de una interfaz responsiva que se adapte tanto a dispositivos móviles como de escritorio.
+Nota de Configuración: Con el fin de mantener un código limpio y profesional, se han integrado extensiones en VS Code como ESLint para la detección de errores de sintaxis, Prettier para el formateo consistente del código y herramientas de previsualización para el diseño IoT. Asimismo, se siguen las recomendaciones del "Conventional Commits" y "GitFlow".
 
-Gestión de Dependencias y Despliegue:
-
-npm (Node Package Manager): Gestor de paquetes encargado de administrar las librerías y dependencias necesarias para el funcionamiento de los componentes web.
-
-GitHub Pages: Elegido como el servicio de hosting para el despliegue continuo de la Landing Page, permitiendo una visualización rápida y accesible para los stakeholders.
-
-Nota de Configuración: Con el fin de mantener un código limpio y profesional, se han integrado extensiones en VS Code como ESLint para la detección de errores de sintaxis, Prettier para el formateo consistente del código y herramientas de previsualización para el diseño IoT.
 ### 5.1.2. Source Code Management
 Usuarios de github:
-<table>
+
+<table border="1" cellspacing="0" cellpadding="2">
   <thead>
     <tr>
       <th align="left">Integrantes</th>
@@ -81,63 +86,50 @@ Para el desarrollo de los repositorios de TerraTech, se ha implementado Git como
 
 Las ramas que conforman nuestro flujo de trabajo son:
 
-Main: Es la rama principal que contiene el código fuente en estado de producción. Cada actualización en esta rama representa una versión estable y funcional del producto.
+- main: Es la rama principal que contiene el código fuente en estado de producción. Cada actualización en esta rama representa una versión estable y funcional del producto.
 
-Develop: Rama de integración donde se consolidan todas las nuevas funcionalidades y correcciones de errores antes de pasar a la fase de lanzamiento. Se origina a partir de main.
+- develop: Rama de integración donde se consolidan todas las nuevas funcionalidades y correcciones de errores antes de pasar a la fase de lanzamiento. Se origina a partir de main.
 
-Feature Branches: Ramas temporales creadas a partir de develop para el desarrollo de características específicas o tareas asignadas a los integrantes del equipo.
+- feature: Ramas temporales creadas a partir de develop para el desarrollo de características específicas o tareas asignadas a los integrantes del equipo.
 
-Convención: feature/NombreDeLaFuncionalidad
+- release: Se utilizan para preparar una nueva versión antes de su despliegue en producción (main). Permiten realizar ajustes menores y pruebas finales.
 
-Release Branches: Se utilizan para preparar una nueva versión antes de su despliegue en producción. Permiten realizar ajustes menores y pruebas finales.
+- hotfix: Ramas de emergencia que se originan directamente desde main para solucionar errores críticos en producción. Una vez resueltos, se integran tanto en main como en develop.
 
 Convención: release/X.Y.Z (siguiendo el versionado semántico).
 
-Hotfix Branches: Ramas de emergencia que se originan directamente desde main para solucionar errores críticos en producción. Una vez resueltos, se integran tanto en main como en develop.
-
-Convención: hotfix/X.Y.Z
 ### 5.1.3. Source Code Style Guide & Conventions
 Con el objetivo de garantizar la mantenibilidad, escalabilidad y una colaboración fluida entre los desarrolladores, el equipo ha establecido una guía de estilo y convenciones de código estandarizadas:
 
 Estándares de Codificación
 Lenguajes: El desarrollo se centra en HTML para la estructura y CSS para el estilizado, asegurando semántica y accesibilidad.
 
-Formateo: Se utiliza Prettier con una configuración personalizada definida en el archivo .prettierrc. Esto asegura que el código mantenga la misma indentación y estilo visual independientemente de quién lo edite.
+- Nomenclatura: Comentarios: Se prioriza el código autodocumentado, pero se fomenta el uso de comentarios descriptivos en bloques de lógica compleja o secciones clave de la arquitectura web.
 
-Nomenclatura:
+- Estilo de Commits: Se ha adoptado la convención de Conventional Commits para mantener un historial de cambios legible y profesional. La estructura sigue el formato tipo: descripción, utilizando los siguientes prefijos:
 
-camelCase: Para nombres de variables, funciones y manejadores de eventos (ej. irrigationStatus, calculateHumidity).
+  - feat: Para la implementación de nuevas características.
 
-PascalCase: Reservado para componentes de interfaz y clases (ej. SidebarNav, SensorCard).
+  - fix: Para la corrección de errores.
 
-Comentarios: Se prioriza el código autodocumentado, pero se fomenta el uso de comentarios descriptivos en bloques de lógica compleja o secciones clave de la arquitectura web.
+  - docs: Para cambios en la documentación.
 
-Estilo de Commits
-Se ha adoptado la convención de Conventional Commits para mantener un historial de cambios legible y profesional. La estructura sigue el formato tipo: descripción, utilizando los siguientes prefijos:
-
-feat: Para la implementación de nuevas características (ej. feat: agregar dashboard de sensores).
-
-fix: Para la corrección de errores (ej. fix: ajustar responsividad en móviles).
-
-docs: Para cambios en la documentación.
-
-style: Para cambios estéticos que no afectan la lógica.
+  - refactor: Para cambios simples, estructurales o que no cambien el contenido.
 
 Control de Calidad: Estas normas se validan de manera obligatoria durante los Pull Requests, donde cada miembro del equipo revisa el código de sus compañeros para asegurar el cumplimiento de la guía de estilo antes de integrar cambios a la rama develop.
+
 ### 5.1.4. Software Deployment Configuration
+
 Para el despliegue tanto de la Landing Page como de la aplicación web, se utilizará un flujo basado en Git, asegurando el control de versiones y una integración continua (CI/CD) eficiente. El uso de la estrategia GitFlow permitirá que las futuras actualizaciones de TerraTech se lancen de manera organizada y sin interrupciones en el servicio.
 
 Landing Page:
 
 - El despliegue de la Landing Page de TerraTech se realizará mediante GitHub Pages, aprovechando su infraestructura optimizada para sitios estáticos:
 
-
 - Configuración del Repositorio: El sitio se servirá directamente desde el repositorio oficial de la organización. Se utilizará la rama main para asegurar que solo el código probado y aprobado sea visible al público.
-
 
 - Seguridad y Disponibilidad: GitHub Pages proporciona hosting gratuito y altamente confiable, incluyendo certificados SSL automáticos, lo que garantiza una conexión segura mediante el protocolo HTTPS para todos los visitantes.
 
-
 - Acceso Público: Se ha generado una URL pública (file:///C:/Users/acer/Desktop/LADING%20PAGE%20APP%20WEB/landing%20page/index.html) siguiendo el estándar de la plataforma, facilitando el acceso a potenciales clientes (agricultores y proveedores) y permitiendo la vinculación futura a un dominio personalizado
 
-![LandingPage](assets/portada_ladingpage.jpg)
+<img src="./report/assets/portada-landingpage.jpg" style="width: 90%; max-width: 1200px; height: 600px;">
